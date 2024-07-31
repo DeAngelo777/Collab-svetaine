@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.py-1 {
+    padding: 1rem;
+}
+
+.py-2 {
+    padding: 2rem;
+}
+
+.py-3 {
+    padding: 3rem;
+}
 
 .topLine {
     background: #60267F;
@@ -69,4 +98,79 @@ color: #000;
 
 img {
     width: 150px;
+}
+
+.headingH1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2B0236;
+    font-weight: 500;
+}
+
+.headingBtn{
+    padding: 1rem 0.5rem;
+    background-color: #9A54BC;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 20px 32px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.headingBtn:hover{
+    background: #fff;
+    color: #9a54BC;
+}
+.section1 {
+    margin-top: 7rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #2B0236;
+    font-weight: 500;
+    
+}
+
+
+.relative {
+    position: relative;
+    top: 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+
+.firstPhoneContainer{
+margin-top: 10rem
+}
+
+.bigEllipse{
+    width: 26rem;
+}
+
+.ellipse {
+    width: 15rem;
+
+}
+
+.rectangle {
+width: 7rem;
+}
+
+.collab {
+    width: 5rem;
+}
+
+.buttonE{
+    display: flex;
+    margin-top: 300px;
+    background-color: white;
+    border: 2px #9A54BC solid;
+    padding: 4px 40px;
+    border-radius: 5px;
+    color: #9A54BC;
+    cursor: pointer;
 }
