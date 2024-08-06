@@ -65,7 +65,6 @@
 .topLine {
     background: #60267F;
     color: #fff;
-    font-size: 12px;
     text-align: center;
     padding: 10px 0;
 }
@@ -73,7 +72,7 @@
 .topLine p{
     font-weight: 600;
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
 
 }
 
@@ -124,6 +123,7 @@ font-weight: 600;
     font-weight: 540;
     cursor: pointer;
     transition: 0.1s ease-in-out;
+    margin-top: 10px;
 
 }
 
@@ -365,3 +365,8 @@ margin-right: 700px;
 }
 
 
+/* Section 5 */
+
+.section5 {
+    padding: 100px 0 100px 0;
+}
