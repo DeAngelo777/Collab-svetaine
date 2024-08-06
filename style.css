@@ -22,6 +22,24 @@
     flex-direction: column;
 }
 
+
+.headingH1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2B0236;
+    font-weight: 500;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.headingH2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #2B0236;
+    font-weight: 900;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
 .py-1 {
     padding: 1rem;
 }
@@ -34,12 +52,29 @@
     padding: 3rem;
 }
 
+.py-6 {
+    padding: 6rem;
+}
+
+.p-bold{
+    font-weight: 900;
+}
+
+/* Utilities Viršui */
+
 .topLine {
     background: #60267F;
     color: #fff;
     font-size: 12px;
     text-align: center;
     padding: 10px 0;
+}
+
+.topLine p{
+    font-weight: 600;
+    color: #fff;
+    font-size: 10px;
+
 }
 
 
@@ -74,6 +109,7 @@
     margin-top: 10px;
 text-decoration: none;
 color: #000;
+font-weight: 600;
 
 
 }
@@ -85,7 +121,7 @@ color: #000;
     border: #9a54BC 2px solid;
     color: #9a54BC;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 540;
     cursor: pointer;
     transition: 0.1s ease-in-out;
 
@@ -100,12 +136,7 @@ img {
     width: 150px;
 }
 
-.headingH1 {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #2B0236;
-    font-weight: 500;
-}
+
 
 .headingBtn{
     padding: 1rem 0.5rem;
@@ -117,6 +148,7 @@ img {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: 0.1s ease-in-out;
+    border-radius: 6.7px;
 }
 
 .headingBtn:hover{
@@ -174,3 +206,162 @@ width: 7rem;
     color: #9A54BC;
     cursor: pointer;
 }
+
+
+
+/* Section 2 */
+
+.topBrandsContainer{
+margin-top: 100px;
+text-align: center;
+}
+
+.iconsContainer{
+    gap: 150px;
+
+}
+
+.iconsContainer img{
+    width: 100px;
+    
+}
+
+/* 3 Section App Help */
+
+.appHelpContainer{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: -50px 400px 0 400px;
+width: 100%;}
+
+.appHelpKairePara{
+    flex-direction: row;
+    width: 22%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* 2 button container klase */
+
+.buttons-2 {
+    display: flex;
+    -webkit-box-shadow: 0px 11px 10px -14px #000000; 
+    box-shadow: 9px 11px 10px -16px #000000;
+    justify-content: space-between;
+    text-align: center;
+
+
+
+}
+
+.appHelpDesineImg{
+    flex-direction: row;
+    width: 78%;
+
+
+}
+
+.buttons{
+    padding: 10px 70px;
+    background-color: #60267F;
+    color:#fff;
+    font-weight: 700;
+    border: 2px solid #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.buttons-white{
+background-color: #fff;
+color: #000;
+}
+
+
+
+.p-text-gray {
+    padding: 25px 25px 25px 25px;
+    margin: 12.5px 0 12.5px 0;
+    background-color: #F2F2F2;
+}
+
+.paraContainer p span {
+    font-weight: 700;
+}
+
+.paraContainer p {
+    color: #000;
+}
+
+.rightImgContainer {
+    background-color: white;
+    width: 55%;
+    padding-top: 70px;
+
+}
+
+.rightImgContainer img{
+width: 300px;
+margin-right: 700px;
+}
+
+/* Section 4 Budget */
+
+
+.budgetContainer {
+    margin-top: 100px;
+    height: 1000px;
+}
+
+
+.budgetContainer p {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.budgetContainer iframe{
+    width: 70%;
+    height: 100%;
+}
+
+
+
+/* Section 5 Projects done */
+
+
+.projectsDoneCardContainer{
+    margin: 50px 400px 0 400px;
+    justify-content: space-between;
+
+}
+
+.card {
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.card>span {
+    margin-left: 20px;
+}
+
+.card img {
+    width: 500px;
+    height: 300px;
+}
+
+
+.projectsDoneCardHeader{
+    color: #60267F;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.projectDoneCardNumber {
+    color: #3d3b3bc7;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
