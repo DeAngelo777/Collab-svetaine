@@ -9,6 +9,10 @@
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
+:root{
+    --grey: #A79D9D;
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -31,13 +35,16 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.headingH2 {
+.HeadingH2{
     font-size: 2rem;
     text-align: center;
     color: #2B0236;
     font-weight: 900;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 
+}
+h2 {
+    text-align: center;
 }
 
 .py-1 {
@@ -362,11 +369,127 @@ margin-right: 700px;
     color: #3d3b3bc7;
     font-weight: 700;
     font-size: 18px;
-}
+margin-top: 25px}
 
 
 /* Section 5 */
 
-.section5 {
-    padding: 100px 0 100px 0;
+.bigCardsContainer {
+gap: 20px;
+}
+
+
+.afterHeadingText{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--grey);
+    margin-top: 50px;
+  
+
+
+}
+
+
+.monthlyYearlyContainer img{
+    gap: 20px;
+    margin: 30px;
+    width: 50px;
+    height: 45px;
+    font-size: 1rem;
+}
+
+.monthly {
+    font-weight: 900;
+
+   color: var(--grey);
+}
+
+.yearly {
+font-weight: 900;
+margin-right: 15px;
+color: var(--grey);
+
+}
+
+.discount {
+    background-color: #FFE87A;
+    font-size: 10px;
+    padding: 4px 7px;
+
+}
+
+.threeBigCardContainer{
+    gap: 50px;
+}
+
+.bigCard{
+    width: 400px;
+    height: 450px;
+    border: 0.5px solid #AAAAAA;
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 3.2rem;
+    border-radius: 7px;
+
+}
+
+.bigCard p {
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 12px;
+}
+
+.threeBigCardContainer h2{
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: left;
+    margin-bottom: 70px;
+
+
+}
+
+.button-ThreeCards{
+    background-color: #FFFFFF;
+    padding: 10px;
+    color: #000;
+    font-weight:700;
+    width: 100%;
+}
+
+.button-ThreeCards:hover{
+    background-color: #000;
+    color: #F2F2F2;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+.bigListCardContainer {
+    gap: 50px;
+    align-items: flex-end; 
+}
+
+li {
+padding: 0 0 0 10px;
+font-size: 18px;
+
+}
+li::marker{
+content: '▶';
+}
+
+.cardThree {
+    background-color: #56E6A5;
+}
+
+.cardThree p {
+    font-size: 16px;
+
+}
+
+.cardThree button{
+    margin-top: 50px;
+    text-align: center;
 }
