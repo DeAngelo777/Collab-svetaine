@@ -9,6 +9,7 @@
     src: url(./fonts/Roboto-Regular.ttf);
 }
 
+
 :root{
     --grey: #A79D9D;
 }
@@ -493,3 +494,5 @@ content: '▶';
     margin-top: 50px;
     text-align: center;
 }
+
+/* Section 6 */
