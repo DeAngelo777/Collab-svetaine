@@ -563,3 +563,83 @@ content: '▶';
 }
 
 /* Section 6 */
+.testimonial {
+    background-color: #f8f0f8;
+    padding: 50px 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+}
+
+.testimonial-arrow {
+    cursor: pointer;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-inner {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-item {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-item.active {
+    display: block;
+}
+
+.rating {
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.user-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.user-info h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.user-info p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
