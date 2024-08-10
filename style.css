@@ -29,11 +29,12 @@
 
 
 .headingH1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     color: #2B0236;
-    font-weight: 500;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-family:  Arial, Helvetica, sans-serif;
+    letter-spacing: 1.3px;
 }
 
 .HeadingH2{
@@ -42,8 +43,19 @@
     color: #2B0236;
     font-weight: 900;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-
 }
+
+.trustedHeading{
+    font-size: 2.2rem;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.logo {
+margin-left: 35px;
+width: 150px;
+}
+
 h2 {
     text-align: center;
 }
@@ -60,9 +72,27 @@ h2 {
     padding: 3rem;
 }
 
+.py-4 {
+    padding: 4rem;
+}
+
+.py-5 {
+    padding: 5rem;
+}
+
 .py-6 {
     padding: 6rem;
 }
+
+.py-9 {
+    padding: 9rem;
+}
+
+
+.py-16 {
+    padding: 16rem;
+}
+
 
 .p-bold{
     font-weight: 900;
@@ -101,8 +131,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10px 15px 30px;
-    border-bottom: 3px solid rgb(128, 128, 128, 0.068);
+    padding: 15px 10px 20px 30px;
+    border-bottom: 4px solid rgb(128, 128, 128, 0.078);
 }
 
 
@@ -146,12 +176,11 @@ img {
 
 
 .headingBtn{
-    padding: 1rem 0.5rem;
     background-color: #9A54BC;
-    font-weight: 700;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
     color: #fff;
-    padding: 20px 32px;
+    padding: 20px 60px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: 0.1s ease-in-out;
@@ -173,7 +202,6 @@ img {
 
 .relative {
     position: relative;
-    top: 0;
 }
 
 .absolute {
@@ -187,33 +215,39 @@ margin-top: 10rem
 }
 
 .bigEllipse{
-    width: 26rem;
+    width: 42rem;
+    top: -245px;
+
 }
 
 .ellipse {
-    width: 15rem;
+    width: 25rem;
+    top: -220px;
 
 }
 
 .rectangle {
-width: 7rem;
+width: 13rem;
 }
 
 .collab {
-    width: 5rem;
+    width: rem;
 }
 
+/* Explore Product Button */
+
 .buttonE{
-    display: flex;
-    margin-top: 300px;
-    width: 140px;
+    /* display: inline; */
+    top: 270px;
     background-color: white;
     border: 2px #9A54BC solid;
-    padding: 10px 15px;
     border-radius: 5px;
     color: #9A54BC;
     cursor: pointer;
-    gap: 7px;
+    padding: 12px 45px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
@@ -231,7 +265,7 @@ text-align: center;
 }
 
 .iconsContainer img{
-    width: 100px;
+    width: 120px;
     
 }
 
