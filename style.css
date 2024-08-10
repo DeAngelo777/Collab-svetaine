@@ -48,8 +48,9 @@
 .trustedHeading{
     font-size: 2.2rem;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
+
 
 .logo {
 margin-left: 35px;
@@ -170,9 +171,6 @@ font-weight: 600;
     color: #fff;
 }
 
-img {
-    width: 150px;
-}
 
 
 .headingBtn{
@@ -264,25 +262,34 @@ text-align: center;
 
 }
 
-.iconsContainer img{
+.iconsContainer .icons{
     width: 120px;
-    
 }
 
-/* 3 Section App Help */
+.banga{
+    width: 200px;
+    height: 200px;
+}
+
+/*How does Collab-app help? */
 
 .appHelpContainer{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    margin: -50px 400px 0 400px;
-width: 100%;}
+    background-color: #fcf8fe;
+}
+
+.colorBefore {
+    background-color: #fcf8fe;
+
+}
 
 .appHelpKairePara{
     flex-direction: row;
-    width: 22%;
+    width: 500px;
     text-align: left;
-    padding-left: 50px;
+    background-color: white;
 }
 
 /* 2 button container klase */
@@ -306,7 +313,7 @@ width: 100%;}
 }
 
 .buttons{
-    padding: 10px 70px;
+    padding: 12px 72px;
     background-color: #60267F;
     color:#fff;
     font-weight: 700;
@@ -338,7 +345,7 @@ color: #000;
 }
 
 .rightImgContainer {
-    background-color: white;
+    background-color: #fcf8fe;
     width: 55%;
     padding-top: 70px;
 
@@ -346,7 +353,6 @@ color: #000;
 
 .rightImgContainer img{
 width: 300px;
-margin-right: 700px;
 }
 
 /* Section 4 Budget */
