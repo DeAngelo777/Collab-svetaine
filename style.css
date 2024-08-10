@@ -672,8 +672,6 @@ font-weight: 600;
 
 }
 
-.mapDesineZemelapis{
-}
 
 .mapDesineZemelapis img{
     height: 500px;
@@ -773,7 +771,7 @@ footer p{
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #fcf8fe;
     font-weight: 600;
     font-size: 16px;
 
