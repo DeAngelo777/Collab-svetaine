@@ -658,21 +658,25 @@ p {
 
 .join-us h2 {
     font-size: 36px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
+    
 }
 
 .join-us p {
     font-size: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
     color: #555;
 }
 
 .join-us button {
     padding: 12px 24px;
-    background-color: #8e24aa;
+    background-color: rgba(154, 84, 188, 1);
     color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     border: none;
-    border-radius: 25px;
+    border-radius: 3px;
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 50px;
@@ -708,13 +712,13 @@ p {
     height: auto;
 }
 
-.profile-1 { left: -5%; top: -100px; }
-.profile-2 { left: -8%; top: 70px; }
-.profile-3 { left: 0%; top: 60px; }
+.profile-1 { left: -7%; top: -100px; }
+.profile-2 { left: -8%; top: 60px; }
+.profile-3 { left: 0%; top: 40px; }
 .profile-4 { left: 0%; top: 150px; }
 .profile-5 { left: 3%; top: 130px; }
-.profile-6 { left: 7%; top: 120px; }
-.profile-7 { left: 12%; top: 135px; }
+.profile-6 { left: 7%; top: 100px; }
+.profile-7 { left: 12%; top: 125px; }
 .profile-8 { left: 6%; top: 20px; }
 
 .you {
