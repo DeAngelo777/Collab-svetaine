@@ -103,13 +103,18 @@ h2 {
     background: #60267F;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 1px 0 1px 0;
+
 }
 
 .topLine p{
     font-weight: 600;
     color: #fff;
     font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
 
 }
 
@@ -160,7 +165,7 @@ font-weight: 600;
     font-weight: 540;
     cursor: pointer;
     transition: 0.1s ease-in-out;
-    margin-top: 10px;
+    margin-top: 8px;
 
 }
 
@@ -672,5 +677,104 @@ font-weight: 600;
 
 .mapDesineZemelapis img{
     height: 500px;
+
+}
+
+/* Footer Menu */
+
+.footerMenuMainContainer {
+    margin: 0 200px 0 200px;
+    justify-content: space-between;
+
+}
+
+
+.footerMenuLeftSide p{
+font-size: 20px;
+}
+
+
+
+
+.footerMenuLeftSide {
+    width: 35%;
+    gap: 30px;
+    align-items: flex-start;
+    margin-right: 400px;
+}
+
+.footerMenuLeftSide h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.social {
+
+    display: flex;
+    gap: 25px;
+}
+
+.social img {
+    width: 40px;
+}
+
+
+.footerMenuRightSide {
+    width: 65%;
+}
+
+.footerMenuRightSide h4{
+font-size: 22px;
+}
+
+.footerMenuRightSide .footerMenuContainer{
+    gap: 120px;
+}
+
+.footerMenuRightSide .footerMenu {
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.footerMenu a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.footerContactContainer{
+    margin-top: 150px;
+
+}
+
+.footerContactContainer h5{
+    margin-right: 50px;
+}
+
+.footerContactContainer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #9A54BC;
+
+
+}
+
+.footerContactContainer h5{
+    font-size: 22px;
+}
+
+footer {
+   
+    background-color: #9A54BC;
+    padding: 1px 0 1px 0;
+}
+
+footer p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
 
 }
