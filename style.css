@@ -370,8 +370,8 @@ width: 300px;
     font-size: 1.5rem;
 }
 
-.budgetContainer iframe{
-    width: 70%;
+.budgetContainer video{
+    width: 60%;
     height: 100%;
 }
 
