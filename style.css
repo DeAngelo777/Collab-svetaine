@@ -649,6 +649,82 @@ p {
     color: #777;
     margin: 0;
 }
+/* Section Join US */
+.join-us {
+    text-align: center;
+    padding: 180px 40px;
+    background-color: rgba(226, 189, 242, 0.11)C;
+}
+
+.join-us h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.join-us p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.join-us button {
+    padding: 12px 24px;
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.profile-line {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.profile {
+    position: relative;
+    z-index: 2;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    
+    
+}
+
+.connecting-line {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.profile-1 { left: -5%; top: -100px; }
+.profile-2 { left: -8%; top: 70px; }
+.profile-3 { left: 0%; top: 60px; }
+.profile-4 { left: 0%; top: 150px; }
+.profile-5 { left: 3%; top: 130px; }
+.profile-6 { left: 7%; top: 120px; }
+.profile-7 { left: 12%; top: 135px; }
+.profile-8 { left: 6%; top: 20px; }
+
+.you {
+    position: absolute;
+    right: 120px;
+    bottom: 75px;
+    color: #8e24aa;
+    font-size: 16px;
+    
+}
 
 
 /* MAP Section */
