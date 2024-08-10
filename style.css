@@ -381,9 +381,10 @@ width: 300px;
 
 
 .projectsDoneCardContainer{
-    margin: 50px 40px 0 40px;
+    margin: 50px 450px 0 450px;
     justify-content: space-between;
-
+    background-color: #fff;
+    padding-bottom: 25px;
 }
 
 .card {
