@@ -442,11 +442,12 @@ margin-top: 25px}
     width: 50px;
     height: 45px;
     font-size: 1rem;
+    
 }
 
 .monthly {
-    font-weight: 900;
-    color: var(--grey);
+    font-weight: 600;
+    color: #bcb3b5;
 }
 
 
@@ -454,19 +455,21 @@ margin-top: 25px}
 .yearly {
 font-weight: 900;
 margin-right: 15px;
-color: var(--grey);
-
+color: #000;
 }
 
 .discount {
     background-color: #FFE87A;
     font-size: 10px;
-    padding: 4px 7px;
+    padding: 4px 10px;
+    font-weight: 600;
 
 }
 
 .threeBigCardContainer{
-    gap: 50px;
+    gap: 60px;
+    margin: 0px 800px 0 800px;
+
 }
 
 .bigCard{
@@ -481,35 +484,58 @@ color: var(--grey);
 }
 
 .bigCard p {
-    font-size: 16px;
-    font-weight: 500px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
 }
 
 .threeBigCardContainer h2{
     font-size: 40px;
     font-weight: 600px;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 
 
 }
 
 .button-ThreeCards{
     background-color: #FFFFFF;
-    padding: 10px;
+    padding: 15px;
     color: #000;
     font-weight:700;
     width: 100%;
+    border: 3px solid #000;
+    border-radius: 5px;
+
 }
 
 .button-ThreeCards:hover{
-    background-color: #000;
-    color: #F2F2F2;
+    background-color: #56E6A5;
+    color: #000;
 }
 
+.greenButtonHover:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+
 ul{
+    line-height: 30px;
+    margin: 25px 20px 0 20px;
+
+}
+
+
+.cardThree ul p {
     margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #1e4f39;
+    font-weight: 400;
+
 }
 
 .bigListCardContainer {
@@ -530,10 +556,6 @@ content: '▶';
     background-color: #56E6A5;
 }
 
-.cardThree p {
-    font-size: 16px;
-
-}
 
 .cardThree button{
     margin-top: 50px;
