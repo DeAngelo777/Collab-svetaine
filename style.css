@@ -412,7 +412,8 @@ width: 300px;
     color: #3d3b3bc7;
     font-weight: 700;
     font-size: 18px;
-margin-top: 25px}
+margin-top: 25px
+}
 
 
 /* Section 5 */
@@ -606,10 +607,6 @@ content: '▶';
     display: block;
 }
 
-.empty{
-    color: #f8f0f8;
-
-}
 
 .rating {
     margin-bottom: 20px;
@@ -646,4 +643,34 @@ p {
     font-size: 14px;
     color: #777;
     margin: 0;
+}
+
+
+/* MAP Section */
+
+.mapContainer{
+    margin: 0 500px 0 500px;
+    height: 700px;
+    justify-content: space-between;
+
+    background-color: #fcf8fe;
+
+}
+
+.mapKaireText{
+    text-align: center;
+}
+
+.mapKaireText p{
+font-size: 18px;
+font-weight: 600;
+
+}
+
+.mapDesineZemelapis{
+}
+
+.mapDesineZemelapis img{
+    height: 500px;
+
 }
