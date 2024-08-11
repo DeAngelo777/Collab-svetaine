@@ -732,6 +732,13 @@ p {
     
 }
 
+/* Download Section */
+.download-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #9A54BC;
+    color:white;
+}
 
 /* MAP Section */
 
