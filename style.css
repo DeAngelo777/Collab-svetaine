@@ -11,7 +11,25 @@
 
 
 :root{
-    --grey: #A79D9D;
+    --dark-violet: #9A54BC;
+    --light-violet: #fcf8fe;
+    --nice-gray: #444444;
+    --muted-gray: #666666;
+}
+
+html{
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.2;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .flex {
@@ -31,7 +49,7 @@
 .headingH1 {
     font-size: 3rem;
     text-align: center;
-    color: #2B0236;
+    color: var(--nice-gray);
     font-weight: 600;
     font-family:  Arial, Helvetica, sans-serif;
     letter-spacing: 1.3px;
@@ -41,7 +59,8 @@
 .trustedHeading{
     font-size: 2.2rem;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    letter-spacing: 1.3px;
+    letter-spacing: 0.28px;
+    color: var(--nice-gray);
 }
 
 
@@ -100,7 +119,7 @@ h2 {
 /* Utilities Viršui */
 
 .topLine {
-    background: #60267F;
+    background: var(--dark-violet);
     color: #fff;
     text-align: center;
     padding: 1px 0 1px 0;
@@ -149,7 +168,7 @@ h2 {
 .navigationContainer a{
     margin-top: 10px;
 text-decoration: none;
-color: #000;
+color: var(--nice-gray);
 font-weight: 600;
 
 
@@ -159,8 +178,8 @@ font-weight: 600;
     border-radius: 5px;
     background: none;
     padding: 8px 10px;
-    border: #9a54BC 2px solid;
-    color: #9a54BC;
+    border: var(--dark-violet) 2px solid;
+    color: var(--dark-violet);
     font-size: 14px;
     font-weight: 540;
     cursor: pointer;
@@ -170,14 +189,14 @@ font-weight: 600;
 }
 
 .headerBtn:hover {
-    background-color: #9a54BC;
+    background-color: var(--dark-violet);
     color: #fff;
 }
 
 
 
 .headingBtn{
-    background-color: #9A54BC;
+    background-color: var(--dark-violet);
     font-weight: 600;
     font-size: 1.4rem;
     color: #fff;
@@ -190,12 +209,12 @@ font-weight: 600;
 
 .headingBtn:hover{
     background: #fff;
-    color: #9a54BC;
+    color: var(--dark-violet);
 }
 .section1 {
     margin-top: 7rem;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    color: #2B0236;
+    color: var(--nice-gray);
     font-weight: 500;
     
 }
@@ -232,7 +251,7 @@ width: 13rem;
 }
 
 .collab {
-    width: rem;
+    width: 9rem;
 }
 
 /* Explore Product Button */
@@ -240,10 +259,10 @@ width: 13rem;
 .buttonE{
     /* display: inline; */
     top: 270px;
-    background-color: white;
-    border: 2px #9A54BC solid;
+    background-color: #fff;
+    border: 2px var(--dark-violet) solid;
     border-radius: 5px;
-    color: #9A54BC;
+    color: var(--dark-violet);
     cursor: pointer;
     padding: 12px 45px;
     white-space: nowrap;
@@ -280,11 +299,11 @@ text-align: center;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    background-color: #fcf8fe;
+    background-color: var(--light-violet);
 }
 
 .colorBefore {
-    background-color: #fcf8fe;
+    background-color: var(--light-violet);
 
 }
 
@@ -317,7 +336,7 @@ text-align: center;
 
 .buttons{
     padding: 12px 72px;
-    background-color: #60267F;
+    background-color: var(--dark-violet);
     color:#fff;
     font-weight: 700;
     border: 2px solid #fff;
@@ -328,7 +347,7 @@ text-align: center;
 
 .buttons-white{
 background-color: #fff;
-color: #000;
+color: var(--nice-gray);
 }
 
 
@@ -339,16 +358,23 @@ color: #000;
     background-color: #F2F2F2;
 }
 
-.paraContainer p span {
-    font-weight: 700;
+.last{
+    margin-bottom: 0;
 }
 
-.paraContainer p {
-    color: #000;
+.first{
+    margin-top: 25px;
+}
+.paraContainer p span {
+    font-weight: 900;
+}
+
+.appHelpKairePara p {
+    color: var(--muted-gray);
 }
 
 .rightImgContainer {
-    background-color: #fcf8fe;
+    background-color: var(--light-violet);
     width: 55%;
     padding-top: 70px;
 
@@ -408,13 +434,13 @@ width: 300px;
 
 
 .projectsDoneCardHeader{
-    color: #60267F;
+    color: var(--dark-violet);
     font-weight: 700;
     font-size: 18px;
 }
 
 .projectDoneCardNumber {
-    color: #3d3b3bc7;
+    color: var(--muted-gray);
     font-weight: 700;
     font-size: 18px;
 margin-top: 25px
@@ -435,7 +461,7 @@ margin-top: 25px
     text-align: center;
     color: var(--grey);
     margin-top: 18px;
-    color: #bcb3b5;
+    color: var(--muted-gray);
   
 
 
@@ -453,7 +479,7 @@ margin-top: 25px
 
 .monthly {
     font-weight: 600;
-    color: #bcb3b5;
+    color: var(--muted-gray);
 }
 
 
@@ -481,7 +507,7 @@ color: #000;
 .bigCard{
     width: 400px;
     height: 480px;
-    border: 0.5px solid #AAAAAA;
+    border: 0.5px solid var(--muted-gray);
     flex-direction: column;
     padding: 20px 30px;
     gap: 3.2rem;
@@ -493,6 +519,7 @@ color: #000;
     font-size: 20px;
     font-weight: 900;
     margin-bottom: 25px;
+    color: var(--muted-gray);
 }
 
 .threeBigCardContainer h2{
@@ -507,8 +534,9 @@ color: #000;
 .button-ThreeCards{
     background-color: #FFFFFF;
     padding: 15px;
-    color: #000;
-    font-weight:700;
+    color: var(--nice-gray);
+    font-weight: 900;
+    font-size: 16px;
     width: 100%;
     border: 3px solid #000;
     border-radius: 5px;
@@ -517,11 +545,11 @@ color: #000;
 
 .button-ThreeCards:hover{
     background-color: #56E6A5;
-    color: #000;
+    color: var(--nice-gray);
 }
 
 .greenButtonHover:hover {
-    background-color: #222;
+    background-color: var(--nice-gray);
     color: #fff;
 }
 
@@ -536,12 +564,15 @@ ul{
 
 
 .cardThree ul p {
+    margin-top: 45px;
     font-size: 14px;
     line-height: 1.5;
     color: #1e4f39;
     font-weight: 400;
 
 }
+
+
 
 .bigListCardContainer {
     gap: 50px;
@@ -551,6 +582,7 @@ ul{
 li {
 padding: 0 0 0 10px;
 font-size: 18px;
+color: var(--muted-gray);
 
 }
 li::marker{
@@ -561,11 +593,6 @@ content: '▶';
     background-color: #56E6A5;
 }
 
-
-.cardThree button{
-    margin-top: 50px;
-    text-align: center;
-}
 
 /* Section 6 */
 .testimonial {
@@ -612,6 +639,10 @@ content: '▶';
     display: block;
 }
 
+.testimonial-item p {
+    color:var(--muted-gray);
+}
+
 
 .rating {
     margin-bottom: 20px;
@@ -642,18 +673,20 @@ p {
     font-size: 18px;
     font-weight: 500;
     margin: 5px 0;
+    color: var(--nice-gray);
 }
 
 .user-info p {
     font-size: 14px;
-    color: #777;
+    color: var(--muted-gray);
     margin: 0;
 }
 /* Section Join US */
 .join-us {
     text-align: center;
     padding: 180px 40px;
-    background-color: rgba(226, 189, 242, 0.11)C;
+    background-color: rgba(226, 189, 242, 0.11);
+    gap: 15px;
 }
 
 .join-us h2 {
@@ -666,7 +699,7 @@ p {
 .join-us p {
     font-size: 18px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 0, 1);
+    color: var(--muted-gray);
     font-weight: 400;
     margin-bottom: 30px;
     
@@ -674,14 +707,15 @@ p {
 
 .join-us button {
     padding: 12px 24px;
-    background-color: rgba(154, 84, 188, 1);
-    color: white;
+    background-color: var(--dark-violet);
+    color: var(--light-violet);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     border: none;
     border-radius: 3px;
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 50px;
+    font-weight: 600;
 }
 
 .profile-line {
@@ -712,6 +746,7 @@ p {
     right: 0;
     width: 100%;
     height: auto;
+    opacity: 0.4;
 }
 
 .profile-1 { left: -7%; top: -100px; }
@@ -727,8 +762,9 @@ p {
     position: absolute;
     right: 120px;
     bottom: 75px;
-    color: #8e24aa;
+    color: var(--dark-violet);
     font-size: 16px;
+    font-weight: 900;
     
 }
 
@@ -736,7 +772,7 @@ p {
 .download-section {
     text-align: center;
     padding: 60px 20px;
-    background-color: #9A54BC;
+    background-color: var(--dark-violet);
     color:white;
 }
 
@@ -746,8 +782,7 @@ p {
     margin: 0 500px 0 500px;
     height: 700px;
     justify-content: space-between;
-
-    background-color: #fcf8fe;
+    background-color: var(--light-violet);
 
 }
 
@@ -758,6 +793,7 @@ p {
 .mapKaireText p{
 font-size: 18px;
 font-weight: 600;
+color: var(--muted-gray);
 
 }
 
@@ -790,9 +826,9 @@ font-size: 20px;
     margin-right: 400px;
 }
 
-.footerMenuLeftSide h3 {
-    font-size: 22px;
-    letter-spacing: 1px;
+.footerMenuLeftSide h2 {
+    font-size: 24px;
+    letter-spacing: 0;
 }
 
 .social {
@@ -812,6 +848,7 @@ font-size: 20px;
 
 .footerMenuRightSide h4{
 font-size: 22px;
+color: var(--nice-gray);
 }
 
 .footerMenuRightSide .footerMenuContainer{
@@ -834,14 +871,15 @@ font-size: 22px;
 
 }
 
-.footerContactContainer h5{
-    margin-right: 50px;
+.footerContactContainer h4{
+    margin-right: 25px;
+    color: var(--nice-gray);
 }
 
 .footerContactContainer a {
     text-decoration: none;
     font-size: 20px;
-    color: #9A54BC;
+    color: var(--dark-violet);
 
 
 }
@@ -852,7 +890,7 @@ font-size: 22px;
 
 footer {
    
-    background-color: #9A54BC;
+    background-color: var(--dark-violet);
     padding: 1px 0 1px 0;
 }
 
@@ -860,7 +898,7 @@ footer p{
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #fcf8fe;
+    color: #fff;
     font-weight: 600;
     font-size: 16px;
 
