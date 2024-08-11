@@ -149,6 +149,10 @@ h2 {
     align-items: center;
 }
 
+.headerContainer .top{
+    background: transparent;
+}
+
 
 .headerContainer {
     display: flex;
@@ -412,10 +416,12 @@ width: 300px;
 
 
 .projectsDoneCardContainer{
-    margin: 50px 450px 0 450px;
+    margin: 50px 200px 0 200px;
     justify-content: space-between;
     background-color: #fff;
     padding-bottom: 25px;
+    text-align: center;
+    gap: 50px;
 }
 
 .card {
@@ -459,8 +465,8 @@ margin-top: 25px
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: var(--grey);
     margin-top: 18px;
+    color: var(--grey);
     color: var(--muted-gray);
   
 
@@ -499,8 +505,9 @@ color: #000;
 }
 
 .threeBigCardContainer{
-    gap: 60px;
-    margin: 0px 800px 0 800px;
+    gap: 40px;
+    margin: 0px 30% 0 30%;
+    padding: 50px;
 
 }
 
@@ -510,6 +517,8 @@ color: #000;
     border: 0.5px solid var(--muted-gray);
     flex-direction: column;
     padding: 20px 30px;
+    /* padding-bottom: 300px; */
+    /* padding-top: 300px; */
     gap: 3.2rem;
     border-radius: 7px;
 
@@ -559,13 +568,14 @@ color: #000;
 ul{
     line-height: 30px;
     margin: 25px 20px 0 20px;
+    padding-bottom: 25px;
 
 }
 
 
 .cardThree ul p {
-    margin-top: 45px;
-    font-size: 14px;
+    margin-top: 20px;
+    font-size: 12px;
     line-height: 1.5;
     color: #1e4f39;
     font-weight: 400;
@@ -581,7 +591,7 @@ ul{
 
 li {
 padding: 0 0 0 10px;
-font-size: 18px;
+font-size: 12px;
 color: var(--muted-gray);
 
 }

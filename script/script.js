@@ -22,3 +22,16 @@ function nextTestimonial() {
 
 // Initialize with the first testimonial active
 showTestimonial(currentIndex);
+
+
+// Sticky Navbar
+
+const navbar = document.getElementById('navbar');
+
+window.onscroll = function () {
+    if(window.pageYOffset > 100) {
+        navbar.classList.remove('headerContainer');
+    } else {
+        navbar.classList.add('headerContainer');
+    }
+}
