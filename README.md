@@ -24,7 +24,7 @@ Site published at: https://deangelo777.github.io/Collab-svetaine/
 
 Design:
 
-- [COllab Demo](<https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?node-id=1-271&t=O4ucU2QW96pR60RN-0>)
+- [Collab Demo](<https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?node-id=1-271&t=O4ucU2QW96pR60RN-0>)
 
 ## 🎯 Project features/goals
 

@@ -536,6 +536,7 @@ color: #000;
     font-weight: 600px;
     text-align: left;
     margin-bottom: 30px;
+    color: var(--nice-gray);
 
 
 }
@@ -547,7 +548,7 @@ color: #000;
     font-weight: 900;
     font-size: 16px;
     width: 100%;
-    border: 3px solid #000;
+    border: 3px solid var(--nice-gray);
     border-radius: 5px;
 
 }
@@ -791,6 +792,7 @@ p {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 600;
     margin-bottom: 60px;
+    color: white;
 }
 
 .button-group {
@@ -801,16 +803,18 @@ p {
 
 .button {
     padding: 12px 24px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-decoration: none;
     display: inline-block;
+    font-weight: 600;
+
 }
 
 .button.primary {
-    background-color: #9A54BC;
-    color: white;
+    background-color: #fff;;
+    color: var(--dark-violet);
     border: 2px solid white;
 }
 
@@ -818,6 +822,7 @@ p {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+
 }
 
 .button:hover {
@@ -838,10 +843,11 @@ p {
 /* MAP Section */
 
 .mapContainer{
-    margin: 0 500px 0 500px;
+    margin: 0 300px 0 300px;
     height: 700px;
     justify-content: space-between;
     background-color: var(--light-violet);
+    gap: 300px;
 
 }
 
@@ -967,4 +973,9 @@ footer p {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
+}
+
+.line{
+    border-bottom: 1px solid #9A54BC;
+    opacity: 0.4;
 }
