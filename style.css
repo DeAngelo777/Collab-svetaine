@@ -488,6 +488,56 @@ margin-top: 25px
     color: var(--muted-gray);
 }
 
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 27px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #4CAF50; /* Green */
+}
+
+input:checked + .slider:before {
+    transform: translateX(9px);
+}
 
 
 .yearly {
@@ -859,10 +909,11 @@ color: var(--muted-gray);
 
 .map {
     flex: 1;
+    margin-left: 10%;
 }
 
 .map iframe {
-    width: 100%;
+    width: 600px;
     height: 450px;
     border: 0;
     border-radius: 0px;
@@ -966,4 +1017,5 @@ footer p {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
+    
 }
