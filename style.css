@@ -771,11 +771,60 @@ p {
 /* Download Section */
 .download-section {
     text-align: center;
-    padding: 60px 20px;
-    background-color: var(--dark-violet);
+    padding: 130px 20px;
+    background-color: #9A54BC;
     color:white;
 }
 
+.download-section h2 {
+    font-size: 46px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button.primary {
+    background-color: #9A54BC;
+    color: white;
+    border: 2px solid white;
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: #8e24aa;
+}
+
+.button.primary:hover {
+    background-color: white;
+    color: #8e24aa;
+}
+
+.button.secondary:hover {
+    background-color: white;
+    color: #8e24aa;
+}
 /* MAP Section */
 
 .mapContainer{
