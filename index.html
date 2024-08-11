@@ -28,12 +28,12 @@
           alt="collab"
         />
         <nav class="navigationContainer flex">
-          <a href="">About</a>
-          <a href="">Product</a>
-          <a href="">Team</a>
-          <a href="">FAQ</a>
-          <a href="">Blog</a>
-          <a href="">Shop</a>
+          <a href="#about">About</a>
+          <a href="#product">Product</a>
+          <a href="#team">Team</a>
+          <a href="#faq">FAQ</a>
+          <a href="#blog">Blog</a>
+          <a href="#shop">Shop</a>
           <button class="headerBtn">Request Demo</button>
         </nav>
       </div>
@@ -108,10 +108,10 @@
           />
         </div>
       </section>
-      <div class="py-9"></div>
+      <div class="py-4"></div>
       <!--How does Collab-app help? -->
 
-      <section class="colorBefore">
+      <section class="colorBefore" id="about">
         <div class="py-3"></div>
         <h2 class="headingH2 trustedHeading">How does Collab-app help?</h2>
         <div class="appHelpContainer flex">
@@ -157,9 +157,9 @@
       </section>
 
       <!-- Fastest, Safest & Budget friendly -->
-
-      <section class="colorBefore">
-        <div class="py-0"></div>
+<div class="py-4 colorBefore"></div>
+      <section class="colorBefore" id="product">
+        <div class="line"></div>
         <div class="budgetContainer flexColumn">
           <h2 class="trustedHeading">Fastest, Safest & Budget friendly</h2>
           <p>
@@ -189,9 +189,10 @@
           ></iframe> -->
         </div>
       </section>
-      <div class="py-1 pyColor"></div>
       <section class="colorBefore">
-        <div class="py-3"></div>
+        <div class="py-3 colorBefore"></div>
+        <div class="line"></div>
+        <div class="py-3 colorBefore"></div>
         <h2 class="trustedHeading">Projects done on Collab</h2>
 
         <div class="projectsDoneCardContainer flex">
@@ -213,7 +214,7 @@
         </div>
         <div class="py-5 pyColor"></div>
       </section>
-      <section>
+      <section id="shop">
         <div class="bigCardsContainer flexColumn"></div>
         <h2 class="trustedHeading">Ready to start with Collab apps?</h2>
         <p class="afterHeadingText">Choose the package that suits you.</p>
@@ -277,7 +278,7 @@
       <div class="py-3"></div>
       <!-- Luko Section testimonial -->
 
-      <section class="testimonialsContainer flexColumn">
+      <section class="testimonialsContainer flexColumn" id="team">
         <div class="testimonial-content">
           <div class="testimonial-arrow left-arrow" onclick="prevTestimonial()">
             <img src="./images/section6Images/ArrowLeft.svg" alt="Left Arrow" />
@@ -370,7 +371,7 @@
       </section>
       <!-- Join us section -->
 
-      <section class="join-us flexColumn">
+      <section class="join-us flexColumn" id="blog">
         <h2 class="trustedHeading">Join us</h2>
         <p>
           At Staart, we're all about delivering better experiences for our
@@ -427,11 +428,11 @@
           />
         </div>
       </section>
-      <div class="py-3"></div>
+      <div class="py-3 colorBefore"></div>
 
       <!-- Download the Collab mobile apps? Section -->
       <section class="download-section">
-        <h2>Download the Collab mobile apps?</h2>
+        <h2 class="trustedHeading">Download the Collab mobile apps?</h2>
         <div class="button-group">
           <a href="#" class="button primary">Try Free Demo</a>
           <a href="#" class="button secondary">Vendor app</a>
@@ -441,7 +442,7 @@
 
       <!-- Section 8 MAP -->
 
-      <section class="colorBefore">
+      <section class="colorBefore" id="faq">
         <div class="mapContainer flex">
           <div class="mapKaireText">
             <h2 class="trustedHeading">Still have a question?</h2>
@@ -459,10 +460,8 @@
         </div>
       </section>
 
-      <div class="py-1"></div>
-
-      <!-- Padaryte "line" -->
-
+      <div class="line"></div>
+<div class="py-2 colorBefore"></div>
       <!-- Footer Menu -->
 
       <section class="colorBefore">
@@ -478,22 +477,26 @@
             </p>
             <h2 class="trustedHeading">Follow us on</h3>
             <div class="social">
-              <img
-                src="./images/section10Images/Facebook Icon undefined.svg"
+            
+              <a href="#">
+                <img src="./images/section10Images/Facebook Icon undefined.svg"
                 alt=""
-              />
+              /></a>
+              <a href="#">
               <img
                 src="./images/section10Images/Instagram Icon undefined.svg"
                 alt=""
-              />
+              /></a>
+              <a href="#">
               <img
                 src="./images/section10Images/LinkedIn Icon undefined.svg"
                 alt=""
-              />
+              /></a>
+              <a href="#">
               <img
                 src="./images/section10Images/YouTube Icon undefined.svg"
                 alt=""
-              />
+              /></a>
             </div>
           </div>
 
@@ -530,6 +533,10 @@
         <p>&copy; Copyright All Rights Reserved 2024</p>
       </footer>
       <script src="./script/script.js"></script>
+      <script src="https://app.aminos.ai/js/chat_plugin.js" data-bot-id="24978"></script>
+      <a href="#navbar" id="backToTop" class="backToTop">
+        <img src="./images/backTop/backtop.png" alt="Back to Top">
+    </a>
     </main>
   </body>
 </html>
