@@ -897,12 +897,17 @@ p {
     height: 700px;
     justify-content: space-between;
     background-color: var(--light-violet);
-    gap: 300px;
 
 }
 
 .mapKaireText{
+    margin-top: 250px;
+    margin-left: 250px;
     text-align: center;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
 }
 
 .mapKaireText p{
@@ -921,9 +926,8 @@ color: var(--muted-gray);
 .map iframe {
     width: 600px;
     height: 450px;
-    border: 0;
     border-radius: 0px;
-    
+
 }
 
 /* Footer Menu */
