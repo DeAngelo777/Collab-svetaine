@@ -1024,16 +1024,14 @@ footer p {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
-<<<<<<< HEAD
     
-=======
 }
 
 .line{
     border-bottom: 1px solid #9A54BC;
     opacity: 0.4;
->>>>>>> 9ca1ab463dce801aeb44d47d8e32e02f9178d228
 }
+
 
 /* Back to Top */
 .backToTop {
