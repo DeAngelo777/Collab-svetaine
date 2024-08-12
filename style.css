@@ -522,8 +522,8 @@ margin-top: 25px
 .slider:before {
     position: absolute;
     content: "";
-    height: 14px;
-    width: 14px;
+    height: 15px;
+    width: 15px;
     left: 4px;
     bottom: 2px;
     background-color: white;
