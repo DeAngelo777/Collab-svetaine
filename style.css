@@ -897,12 +897,17 @@ p {
     height: 700px;
     justify-content: space-between;
     background-color: var(--light-violet);
-    gap: 300px;
 
 }
 
 .mapKaireText{
+    margin-top: 250px;
+    margin-left: 250px;
     text-align: center;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
 }
 
 .mapKaireText p{
@@ -921,9 +926,8 @@ color: var(--muted-gray);
 .map iframe {
     width: 600px;
     height: 450px;
-    border: 0;
     border-radius: 0px;
-    
+
 }
 
 /* Footer Menu */
@@ -1024,16 +1028,14 @@ footer p {
     color: #fff;
     font-weight: 600;
     font-size: 16px;
-<<<<<<< HEAD
     
-=======
 }
 
 .line{
     border-bottom: 1px solid #9A54BC;
     opacity: 0.4;
->>>>>>> 9ca1ab463dce801aeb44d47d8e32e02f9178d228
 }
+
 
 /* Back to Top */
 .backToTop {
